@@ -1,0 +1,160 @@
+.topnav {
+    background-color:#6EB7F0 ;
+    overflow: hidden;
+    
+}
+
+.topnav a{
+    float:right;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.topnav a:hover {
+    background-color:#6C97F3 ;
+    color: black;
+    border-radius:6px;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.menu{
+   padding: 15px; ;
+} 
+.image{
+    position: relative;
+    margin-top:10px;
+}
+.container{
+    position: absolute;
+    bottom: 550px;
+  right: 800px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*login page*/
+
+.container-login{
+    border-color: red;
+    border-width:10px;
+    background-color:#EFF7EF  ;
+    margin-left:400px;
+    margin-top:30px;
+    height:480px;
+    width:600px;
+    border-radius:10px;
+}
+.login{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:40px;
+    padding-top:40px;
+    font-size:40px;
+    
+}
+input[type=text],select{
+   border: none;
+   border-radius:5px;
+   width: 60%;
+   height: 8%;
+   margin-left:110px;
+   margin-top:30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+   
+}
+input[type=password],select{
+   border: none;
+   border-radius:5px;
+   width: 60%;
+   height:8%;
+   margin-left:110px;
+   margin-top:30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+   
+}
+
+input[type=button],select{
+  width:30%;
+  height:10%;
+  margin-top:30px;
+  margin-bottom:20px;
+  border-radius:5px;
+  background-color:#1BC01B ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+  
+}
+.container-login a{
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+  color: red;
+  margin-left: 5px;
+
+}
+.container-login p{
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+}
+
+
+/*register form*/
+
+.container-register{
+  
+  border-width:10px;
+  background-color:#EFF7EF  ;
+  margin-left:400px;
+  margin-top:30px;
+  height:600px;
+  width:600px;
+  border-radius:10px;
+}
+
+.register{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left:40px;
+  padding-top:40px;
+  font-size:40px;
+  
+}
+.container-register a{
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+  color: red;
+  margin-left: 5px;
+
+}
+.container-register p{
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:14px;
+}
+
+.message{
+  position:sticky;
+  top:0; left:0; right:0;
+   padding:15px 10px;
+   background-color: var(--white);
+   text-align: center;
+   z-index: 1000;
+   box-shadow: var(--box-shadow);
+   color:var(--black);
+   font-size: 20px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+
+
